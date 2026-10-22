@@ -222,7 +222,7 @@ const money = (value: number) =>
 
 function App() {
   const navigate = useNavigate();
-  const location = useLocation();
+  
 
   const [page, setPageState] = useState<Page>("home");
   const [hotels, setHotels] = useState<Hotel[]>(fallbackHotels);
@@ -1387,7 +1387,7 @@ function AdminPanel() {
     <div className="grid-hotels">
       {Object.entries(stats).map(([key, value]) => (
         <div className="panel" key={key}>
-          <div className="muted">{key.replaceAll("_", " ")}</div>
+          <div className="muted">{key.replace(/_/g, " ")}</div>
           <h2>{value}</h2>
         </div>
       ))}
@@ -1395,3 +1395,5 @@ function AdminPanel() {
   );
 }
 export default App;
+
+
