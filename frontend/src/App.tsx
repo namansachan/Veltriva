@@ -1,5 +1,5 @@
 
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useEffect, useState, type FormEvent } from "react";
 import {
   ArrowRight,
@@ -1395,5 +1395,6 @@ function AdminPanel() {
   );
 }
 export default App;
+
 
 
