@@ -1,5 +1,5 @@
-
-# StayEase
+﻿
+# Veltriva
 
 A full-stack hotel discovery and booking application built with React,
 TypeScript, FastAPI and SQLAlchemy.
@@ -119,3 +119,12 @@ This is a starter project, not a production-ready booking platform.
 5. Add email verification, password recovery and review eligibility.
 6. Deploy the frontend and API separately.
 7. Add CI workflows and broader automated tests.
+
+
+## Live Demo
+
+https://veltriva.vercel.app
+
+## Source Code
+
+https://github.com/namansachan/Veltriva
